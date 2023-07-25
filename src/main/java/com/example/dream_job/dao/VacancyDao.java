@@ -15,6 +15,4 @@ public interface VacancyDao {
     boolean deleteById(Long id);
 
     boolean update(Vacancy vacancy);
-
-
 }

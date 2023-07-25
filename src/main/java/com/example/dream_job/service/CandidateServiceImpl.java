@@ -44,7 +44,6 @@ public class CandidateServiceImpl implements CandidateService {
         candidateRepository.deleteById(id);
         return true;
     }
-
     @Override
     public boolean update(Candidate candidate) {
         Optional<Candidate> optionalCandidate = getById(candidate.getId());
